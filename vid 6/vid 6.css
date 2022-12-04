@@ -1,0 +1,35 @@
+div {
+    width: 70%;
+    margin:auto;
+    
+}
+
+h1 {
+    color: darkblue;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+h2 {
+    color:blueviolet ;
+    border: 1px dashed darkblue;
+    background-color: lightblue;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+p {
+    border: 1px solid darkblue;
+    padding: 20px;
+    background-color: darkturquoise;
+}
+
+img {
+    border: 1px solid black;
+   
+}
