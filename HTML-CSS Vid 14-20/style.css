@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    width: 75px;
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-color: red;
+}
+
+.logo{
+    float: left;
+    clear: both;
+}
+
+h1{
+    float: left;
+    margin-top: 20px;
+}
+
+.menu{
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.header{
+    background-color: yellow;
+    padding-bottom: 5rem;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    background: yellow;
+}
+
+ul li{
+    color: black;
+    background: yellow;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    padding: 10px;   
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+ul li:hover{
+    background: sandybrown;
+    cursor: pointer;
+}
+
+ul li ul{
+    background: yellow;
+    visibility: hidden;
+    position: absolute;
+    padding-left: 0;
+    margin-top: auto;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    left: 0px;
+    width: 100%;
+}
+
+.display{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.display img{
+    display: block;
+    width: 550px;
+    height: 250px;
+    margin: auto;
+    object-position: center;
+}
+ 
+.content{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.content1{
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 1rem;
+    flex: 1;
+    color: white;
+}
+
+.content1 img{
+    width: 400px;
+    height: 200px;
+    flex: 1;
+    object-position: center;
+}
+
+.content2{
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 1rem;
+    flex: 1;
+    color: white;
+}
+
+.content2 img {
+    width: 400px;
+    height: 200px;
+    flex: 1;
+    object-position: center;
+}
+
+.content3{
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 1rem;
+    flex: 1;
+    color: white;
+}
+
+.content3 img{
+    width: 400px;
+    height: 200px;
+    flex: 1;
+    object-position: center;
+}
+
+input[type="button"]{
+    padding: 10px;
+    background-color: yellow;
+}
+
+.saran{
+    text-align: center;
+    color: white;
+}
+
+input[type="email"]{
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    background-color: yellow;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.kontak{
+    flex: 1;
+}
+
+.kontak img{
+    width: 50px;
+    object-position: center;
+    margin-left: 1rem;
+    flex: 1;
+}
+
+.sitemap{
+    flex: 1;
+}
+
+.petalokasi{
+    flex: 1;
+}
+
+.petalokasi iframe{
+    flex: 1;
+    width: 200px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+    .logo img{
+        width: 50px;
+        margin-top: 10px;
+    }
+    
+    h1{
+        font-size: 75%;
+        margin-top: 30px;
+    }
+
+    .header{
+        padding-bottom: 4rem;
+    }
+
+    .menu{
+        margin-right: 5px;
+    }
+
+    ul li {
+        font-size: 75%;
+    }
+
+    .display{
+        margin-top: 10px;
+    }
+
+    .display img{
+        width: 250px;
+        height: 100px;
+        object-position: center;
+    }
+  
+    .content{
+        flex-direction: column;
+    }
+
+    .content1{
+        font-size: 50%;
+        flex: 1;
+    }
+
+    .content1 img{
+        width: 200px;
+        height: 100px;
+        flex: 1;
+    }
+
+    .content2{
+        font-size: 50%;
+        flex: 1;
+    }
+
+    .content2 img{
+        width: 200px;
+        height: 100px;
+        flex: 1;
+    }
+
+    .content3{
+        font-size: 50%;
+        flex: 1;
+    }
+
+    .content3 img{
+        width: 200px;
+        height: 100px;
+        flex: 1;
+    }
+
+    input[type="button"]{
+        padding: 5px;
+        font-size: 50%;
+     } 
+     
+     input[type="email"]{
+        padding: 5px;
+        font-size: 50%;
+     } 
+
+     input[type="submit"]{
+        padding: 5px;
+        font-size: 50%;
+     } 
+
+     .kontak{
+        font-size: 50%;
+     }
+
+     .kontak img{
+        width: 20px;
+        margin-left: 3px;
+     }
+
+     .sitemap{
+        font-size: 50%;
+     }
+
+     .petalokasi{
+        font-size: 50%;
+     }
+
+     .petalokasi iframe{
+        width: 100px;
+        height: 50px;
+     }
+}
